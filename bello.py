@@ -10,7 +10,7 @@ def get_embedding(text, model="text-embedding-ada-002"):
 
 openai.api_key = ""
 
-client = supabase.create_client("https://kodszumtlvogudvqwegu.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZHN6dW10bHZvZ3VkdnF3ZWd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM1NjE4MjAsImV4cCI6MTk5OTEzNzgyMH0.b_KBO_Jnd7SVST2DFfjY-5yDMYZlsmkGLyntNryHjds")
+client = supabase.create_client("", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZHN6dW10bHZvZ3VkdnF3ZWd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM1NjE4MjAsImV4cCI6MTk5OTEzNzgyMH0.b_KBO_Jnd7SVST2DFfjY-5yDMYZlsmkGLyntNryHjds")
 
 table_name = "live_information"
 
