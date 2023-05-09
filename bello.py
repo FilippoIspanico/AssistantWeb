@@ -8,7 +8,7 @@ def get_embedding(text, model="text-embedding-ada-002"):
 
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 client = supabase.create_client("https://kodszumtlvogudvqwegu.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtvZHN6dW10bHZvZ3VkdnF3ZWd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM1NjE4MjAsImV4cCI6MTk5OTEzNzgyMH0.b_KBO_Jnd7SVST2DFfjY-5yDMYZlsmkGLyntNryHjds")
 
